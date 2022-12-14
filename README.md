@@ -1,3 +1,30 @@
+### Heroku
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/adeniyisikirat3/chessbot)
+
+Assuming everything was entered correctly the deploy process should run the following commands automatically and your bot should be instantly working:
+- `php bin/console install` - install database schema
+- `php bin/console set` - set the webhook
+
+If it doesn't you will have to open your app's console and run them manually.
+
+You will also want to add **Heroku Scheduler** addon and set up a hourly task to run the following command to clean up expired games from the database:
+- `php bin/console cron`
+
+If this command times out too fast try using something like this instead: `php -d max_execution_time=2700 bin/console cron`
+
+
+
+
+
+
+
+
+
+
+
+
+
 # The PvP chess bot for the Telegram
 
 ![Travis (.org)](https://img.shields.io/travis/Piterden/chessbot/dev.svg?style=for-the-badge)
