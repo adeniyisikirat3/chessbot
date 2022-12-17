@@ -12,7 +12,7 @@
     "dev": "nodemon -w src src/index.js"
   },
   "author": "Denis Efremov <efremov.a.denis@gmail.com>",
-  "repos000itory": {
+  "re000pository": {
     "type": "git",
     "url": "git@github.com:Piterden/chessbot.git"
   },
