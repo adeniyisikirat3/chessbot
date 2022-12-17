@@ -47,9 +47,7 @@
   }
 }
 
-"addons": [
-    "heroku-postgresql"
-  ],
+
   "env": {
     "BOT_TOKEN": {
       "description": "Bot API token obtained from @BotFather",
