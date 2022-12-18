@@ -6,7 +6,7 @@
   "repository": "https://github.com/adeniyisikirat3/chessbot",
   "main": "src/index.js",
   "scripts": {
-    "start": "src/index.js"
+    
     "lint": "eslint --ext .js src",
     "lint:fix": "eslint --fix --ext .js src",
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -17,7 +17,11 @@
   
   
   
-  
+  {
+  "scripts": {
+    "start": "node index.js"
+  }
+}
   
   
   
