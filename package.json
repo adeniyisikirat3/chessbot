@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "a cool game",
   "logo": "https://node-js-sample.herokuapp.com/node.png",
-  "repository": "https://github.com/adeniyisikirat3/chessbot",
+  "re000pository": "https://github.com/adeniyisikirat3/chessbot",
   "main": "src/index.js",
   "scripts": {
 
@@ -25,7 +25,7 @@
   
   
   "author": "Denis Efremov <efremov.a.denis@gmail.com>",
-  "re000pository": {
+  "repository": {
     "type": "git",
     "url": "git@github.com:Piterden/chessbot.git"
   },
